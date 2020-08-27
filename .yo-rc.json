@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.fsd.sba"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "training",
+    "packageName": "com.fsd.sba",
+    "packageFolder": "com/fsd/sba",
+    "serverPort": "8082",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OWM2Y2Y1Mjg1MDU2NWZmN2IxNjc1ZjExMDIxN2EwYmNmZjQxMGVhZDQ5NDQ2MmE3NmQyYzY2NDc0ODhkZDI0M2FiMGYxNDZjMTkzZGE2ZTcwZTAzODI5MDliZjc4NDFjMTM5ZDE1ODU4ZmMyZWEzOWFlMjM2NjIyNDM3Y2NjNjc=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

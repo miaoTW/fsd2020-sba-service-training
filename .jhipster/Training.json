@@ -1,0 +1,72 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "training",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "status",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "progress",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "fees",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "commissionAmount",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "rating",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "startDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "endDate",
+            "fieldType": "LocalDate"
+        },
+        {
+            "fieldName": "startTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "endTime",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "amountReceived",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "userId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "mentorId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "skillId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "razorpayPaymentId",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20191028101046",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "training",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "training"
+}
